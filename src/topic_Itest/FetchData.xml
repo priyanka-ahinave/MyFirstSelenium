@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+
+	<test name="Test_ValidInputs">
+		<parameter name="browser" value="ff"></parameter>
+		<parameter name="ValidUserName" value="standard_user"></parameter>
+		<parameter name="ValidPassword" value="secret_sauce"></parameter>
+		<classes>
+			<class name="topic_Itest.TestFetchDataFromXML" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Test_InValidInputs">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="ValidUserName" value="Invalid_user"></parameter>
+		<parameter name="ValidPassword" value="secret_sauce"></parameter>
+		<classes>
+			<class name="topic_Itest.TestFetchDataFromXML" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

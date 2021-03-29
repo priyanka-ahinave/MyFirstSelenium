@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test1-Front-End">
+    <classes>
+      <class name="topicTestNGAdvanceAnnotation.TestUi"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test2-Back-End">
+    <classes>
+      <class name="topicTestNGAdvanceAnnotation.TestDataBase"/>
+       <class name="topicTestNGAdvanceAnnotation.TestSecurity"/>
+       <class name="topicTestNGAdvanceAnnotation.TestBckEndConfig"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

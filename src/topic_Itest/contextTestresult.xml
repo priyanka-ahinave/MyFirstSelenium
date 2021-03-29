@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test_ff">
+  <parameter name="browser" value="ff"></parameter>
+    <classes>
+      <class name="topic_Itest.TestResultContext"/>
+      <methods> <!-- Method level exclusion -->
+      <exclude name="testDeleteUser"></exclude>
+     <!--   <include name="testDeleteUser"></include>  Method level exclusion -->
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+    <test name="Test_Chrome">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="topic_Itest.TestResultContext"/>
+      <methods> <!-- Method level exclusion 
+      <exclude name="testDeleteUser"></exclude>-->
+       <include name="testDeleteUser"></include>  <!-- Method level exclusion -->
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

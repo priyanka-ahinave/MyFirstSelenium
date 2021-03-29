@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="true">
+  <test name="Test">
+    <classes>
+       <class name="testNGPackage1.Test4_VerificationPoint4"/>
+      <class name="testNGPackage2.Test3_VerificationPoint3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
